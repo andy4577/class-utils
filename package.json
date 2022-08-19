@@ -11,5 +11,9 @@
     "css"
   ],
   "author": "Andriy Petrushchak",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/andy4577/class-utils.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
