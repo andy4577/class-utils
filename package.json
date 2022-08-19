@@ -1,10 +1,11 @@
 {
-  "name": "class-utils",
+  "name": "@andy4577/class-utils",
   "version": "0.0.1",
   "description": "Tesp package NPM",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "classes",
