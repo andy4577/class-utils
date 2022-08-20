@@ -4,7 +4,8 @@
   "description": "Tesp package NPM",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:dev": "jest --watch",
     "build": "tsc"
   },
   "keywords": [
@@ -16,5 +17,14 @@
   "repository": "https://github.com/andy4577/class-utils.git",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/jest": "^28.1.7",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3",
+    "ts-node": "^10.9.1"
   }
 }
