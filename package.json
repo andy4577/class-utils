@@ -1,6 +1,6 @@
 {
   "name": "@andy4577/class-utils",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Tesp package NPM",
   "main": "dist/index.js",
   "scripts": {
